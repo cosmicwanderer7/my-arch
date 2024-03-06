@@ -1,0 +1,10 @@
+// variables
+@import "/src/styles/variables/@_main.scss";
+
+// mixins
+@import "/src/styles/mixins/@_main.scss";
+
+.battery {
+  @include box;
+  color: var(--battery);
+}

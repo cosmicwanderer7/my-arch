@@ -1,0 +1,11 @@
+@mixin box {
+  border: $border var(--border);
+  border-radius: $radius;
+  width: max-content;
+  padding: 0 $space-3xs;
+  font-family: "ubuntu";
+
+  @include fl(r, c, c, $space-3xs);
+
+  @include radiusVariants;
+}

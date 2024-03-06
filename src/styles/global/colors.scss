@@ -1,0 +1,63 @@
+/* colors */
+:root {
+  --txt: #adb4d0;
+  --txt-a: #c4bbc4;
+  --bg-pri: #0f0a0f;
+  --bg-pri-a: #1e151e;
+  --bg-sec: #2d1f2d;
+  --bg-sec-a: #3c2a3c;
+  --bg-ter: #4b344b;
+  --bg-ter-a: #5a3f5a;
+  --fg-pri: #ad39ab;
+  --fg-pri-a: #cc66ca;
+  --fg-sec: #915491;
+  --fg-sec-a: #bd8ebd;
+  --border: #8a6ab2;
+  --powerbtn: #dd2729;
+  --updates: #da9e61;
+  --battery: #48d96f;
+  --datetime: #dd7cb4;
+  --blue: #7acadd;
+  --red: #ea3c53;
+  --yellow: #f4c430;
+}
+
+/* Light theme */
+@media (prefers-color-scheme: light) {
+  $theme: "light";
+
+  :root {
+    --txt: #adb4d0;
+    --txt-a: #443b44;
+    --bg-pri: #f5f0f5;
+    --bg-pri-a: #eae1ea;
+    --bg-sec: #e0d2e0;
+    --bg-sec-a: #d5c3d5;
+    --bg-ter: #cbb4cb;
+    --bg-ter-a: #c0a5c0;
+    --fg-pri: #c652c4;
+    --fg-pri-a: #862d85;
+    --fg-sec: #993397;
+    --fg-sec-a: #6b2f69;
+  }
+}
+
+/* Dark theme */
+@media (prefers-color-scheme: dark) {
+  $theme: "dark";
+
+  :root {
+    --txt: #adb4d0;
+    --txt-a: #c4bbc4;
+    --bg-pri: #0f0a0f;
+    --bg-pri-a: #1e151e;
+    --bg-sec: #2d1f2d;
+    --bg-sec-a: #3c2a3c;
+    --bg-ter: #4b344b;
+    --bg-ter-a: #5a3f5a;
+    --fg-pri: #ad39ab;
+    --fg-pri-a: #cc66ca;
+    --fg-sec: #915491;
+    --fg-sec-a: #bd8ebd;
+  }
+}

@@ -1,0 +1,13 @@
+// variables
+@import "/src/styles/variables/@_main.scss";
+
+// mixins
+@import "/src/styles/mixins/@_main.scss";
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  overflow: hidden;
+}

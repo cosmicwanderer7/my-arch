@@ -1,0 +1,12 @@
+// variables
+@import "/src/styles/variables/@_main.scss";
+
+// mixins
+@import "/src/styles/mixins/@_main.scss";
+
+.windows {
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  padding: 4px 7px 2px;
+  width: max-content;
+}

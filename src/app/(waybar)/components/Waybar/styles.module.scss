@@ -1,0 +1,19 @@
+// variables
+@import "/src/styles/variables/@_main.scss";
+
+// mixins
+@import "/src/styles/mixins/@_main.scss";
+
+.waybar {
+  margin: 7px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.gaps {
+  display: flex;
+}
+
+.gaps>div {
+  margin: 0 5px;
+}
